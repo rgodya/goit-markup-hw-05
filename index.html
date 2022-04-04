@@ -42,7 +42,7 @@
     <main>
         <section class="hero">
             <h1 class="hero-title"> ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-            <button type="button"class="button">Заказать услугу</button>
+            <button type="button"class="button" data-modal-open>Заказать услугу</button>
         </section>
         <section class="feature-list section">
             <div class="container">
@@ -353,5 +353,15 @@
             </div>
         </div>
     </footer>
+    <div class="backdrop" data-modal>
+    <div class="modal">
+    <button type="button" class="modal-close-btn" data-modal-close>
+    <svg class="modal-close-icon" width="11" height="11">
+        <use href="./images/symbol-defs-two.svg#icon-cross"></use>
+    </svg>
+    </button>
+    </div>
+    </div>
+    <script src="./js/modal.js"></script>
     </body>
 </html>
